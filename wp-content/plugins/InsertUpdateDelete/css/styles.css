@@ -1,0 +1,313 @@
+.button1,input[type="button"],input[type="reset"]
+{
+ border:1px solid #666666;
+ border-radius: 3px;
+ font-family:arial, helvetica, sans-serif; 
+ padding: 10px 10px 10px 10px; 
+ text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+ font-weight:bold; 
+ text-align: center; 
+ color: #FFFFFF; 
+ background-color: #333333;
+}
+.centered 
+{
+  /*position: relative;*/
+  /*left: 14%;*/
+  /*margin-left:-9%;*/
+  margin-left: 2%;
+  display: block;
+}
+
+.centered table 
+{
+    margin:auto;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.centered caption 
+{
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+    font-size: 150%;
+    border:1px solid #aca998;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+}
+
+.centered td
+{
+    padding: 5px 5px 5px 0px;
+    text-align: right;
+}
+
+.centered label
+{
+    color: black;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    font: bold 11px "Arial", Verdana, Helvetica, sans-serif;
+}
+
+.centered textarea
+{
+    resize: none;
+}
+
+
+.button1,input[type="button"]:hover
+{
+ border:1px solid #666666;  
+ background-color: #666666;
+}  
+.button2 
+{
+    cursor: pointer;
+    border:1px solid #999999;
+    border-radius: 3px;
+    font-family:arial, helvetica, sans-serif; 
+    padding: 10px 10px 10px 10px; 
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight:bolder; 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 105%;
+    color: #FFFFFF; 
+    background-color: #666666;
+    text-decoration: none;
+ }
+.button2:hover
+{
+    border:1px solid #cccccc;  
+    background-color: #999999; 
+    color: #000000;
+    text-decoration: none;
+}  
+
+input[type="submit"]
+{
+    border:1px solid #999999;
+    border-radius: 3px;
+    font-family:arial, helvetica, sans-serif; 
+    padding: 10px 10px 10px 10px; 
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight:bolder; 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 105%;
+    color: #FFFFFF; 
+    background-color: #666666;
+}
+input[type="submit"]:hover
+{
+ border:1px solid #cccccc;  
+  background-color: #999999; 
+}  
+
+
+.f3 {width: 100%; height: 22px; margin: 0; border: 1px solid #777;
+  float: left; -webkit-box-sizing: border-box;}
+
+input[type="file"].f3::-webkit-file-upload-button {
+  float: right; position: relative; top: -1px; right: -1px;}
+
+input[type="text"],select,input[type="file"],textarea
+{
+    width: 100%;
+    border-color: #666666;
+    text-transform: capitalize;
+}
+input[type="text"]:focus,select:focus,input[type="file"]:focus,textarea:focus
+{
+    border-color:  #333333;
+    /*box-shadow: 0px 0px 10px #666666;*/
+    background-color: #ffffcc;
+    text-transform: uppercase;
+}
+            
+#mytable3 table 
+{
+    display:table;
+    text-transform: uppercase;
+    margin:auto;
+    border: 1px solid #aca998;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 0 10px 10px;
+    
+}
+
+#mytable3 caption 
+{
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+    font-size: 150%;
+    border:1px solid #aca998;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+}
+
+#mytable3 textarea
+{
+    resize: none;
+}
+
+#mytable3 td
+{
+    padding: 5px 5px 5px 5px;
+}
+            
+#mytable2 table 
+{
+    /*display:table;
+    border-collapse:collapse;*/
+    margin:auto;
+    /*margin-top: 20px;*/
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 10px;
+    border:1px solid #aca998;
+    border-radius: 5px;
+}
+
+#mytable2 caption 
+{
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+    font-size: 150%;
+    border:1px solid #aca998;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+}
+
+#mytable2 td
+{
+    padding: 5px 5px 5px 0px;
+    text-align: right;
+}
+
+#mytable2 label
+{
+    color: black;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    font: bold 11px "Arial", Verdana, Helvetica, sans-serif;
+}
+
+#mytable2 textarea
+{
+    resize: none;
+}
+
+#mytable2 .required, .required
+{
+    color: black;
+    font: bold 12px "Arial", Verdana, Helvetica, sans-serif;
+}
+
+#mytable table 
+{
+    text-transform: uppercase;
+    width: 840px;
+    display:table;
+    border-collapse: collapse;
+    margin:auto;
+    border:2px solid #aca998;
+}
+
+#mytable caption 
+{
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+    font-size: 150%;
+    border:1px solid #aca998;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+}
+
+#mytable tr 
+{
+    display:table-row;
+    background: #fff;
+    color: #666666;
+}
+
+#mytable tr:hover 
+{
+    color:#000; 
+    background:#CCCCCC; 
+}
+
+#mytable a 
+{
+    color:#0066cc; 
+    text-decoration:underline;
+}
+
+#mytable th 
+{
+    font: bold 11px "Arial", Verdana,Helvetica, sans-serif;
+    background: #727272 ;
+    color: #FFFFFF;
+    border:1px solid #aca998;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px 3px 2px 3px;
+    display: table-cell; 
+    margin: 0px; 
+    vertical-align:middle ; 
+}
+
+#mytable td 
+{
+    border:1px solid #aca998;
+    padding: 2px 3px 2px 3px;
+}
+
+#mytable4 table 
+{
+    margin:auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border:1px solid #aca998;
+    border-radius: 5px;
+}
+
+#mytable4 caption 
+{
+    padding: 0 0 10px 0;
+    /*width: 840px;*/
+    font: 18px "Arial", Verdana,Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#mytable4 td
+{
+    padding: 5px 5px 5px 5px;
+}
+
+#mytable4 label
+{
+    color: black;
+    padding-left: 5px;
+    font: bold 12px  "Arial",Verdana,Helvetica, sans-serif;
+}
