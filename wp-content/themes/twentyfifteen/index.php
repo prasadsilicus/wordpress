@@ -57,8 +57,5 @@ get_header(); ?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
-        <div>
-                <?php dynamic_sidebar( 'home_right_1' ); ?>
-            <br>
-        </div>
+
 <?php get_footer(); ?>

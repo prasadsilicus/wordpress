@@ -311,3 +311,7 @@ input[type="text"]:focus,select:focus,input[type="file"]:focus,textarea:focus
     padding-left: 5px;
     font: bold 12px  "Arial",Verdana,Helvetica, sans-serif;
 }
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable tr { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+#sortable tr span { position: absolute; margin-left: -1.3em; }

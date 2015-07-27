@@ -146,14 +146,26 @@ if ( $.fn.DataTable.TableTools ) {
 	} );
 }
 
-
 /* Table initialisation */
 $(document).ready(function() {
-	$('#example').dataTable( {
+	var table = $('#example').dataTable( {
 		"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
-		"sPaginationType": "bootstrap",
+                 "bSort": false,
 		"oLanguage": {
 			"sLengthMenu": "_MENU_ records per page"
 		}
 	} );
 });
+
+
+   var expanded = false;
+    function showCheckboxes() {
+        var checkboxes = document.getElementById("checkboxes");
+        if (!expanded) {
+            checkboxes.style.display = "block";
+            expanded = true;
+        } else {
+            checkboxes.style.display = "none";
+            expanded = false;
+        }
+    }

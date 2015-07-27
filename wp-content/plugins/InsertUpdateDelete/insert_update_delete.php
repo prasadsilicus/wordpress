@@ -1,7 +1,7 @@
 <?php
     /* 
     Plugin Name:Insert Update Delete Plugin
-    Version: 1.0
+    Version: 2.0
     Plugin URI: http://9code.in
     Author: Mr. Hardik Vegad
     Author URI: http://9code.in
