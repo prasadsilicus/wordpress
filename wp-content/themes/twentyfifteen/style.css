@@ -6207,3 +6207,19 @@ p > video {
     margin: 0px 36px;
     padding-bottom: 20px;
 }
+
+.avatar-image{
+    padding-right:5px;
+}
+
+.contributor-author{
+    padding-right:5px;
+}
+
+.contributor-heading{
+    font-weight:bold;
+}
+
+#main.type-post{
+    padding-left:38px;
+}

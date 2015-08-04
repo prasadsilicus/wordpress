@@ -189,7 +189,7 @@ div.DTFC_LeftFootWrapper table {
     position: relative;
 }
 .selectBox select {
-    width: 100%;
+    width: 30%;
     font-weight: bold;
 }
 .overSelect {
@@ -198,6 +198,7 @@ div.DTFC_LeftFootWrapper table {
 }
 #checkboxes {
     display: none;
+    width: 30%;
     border: 1px #dadada solid;
 }
 #checkboxes label {

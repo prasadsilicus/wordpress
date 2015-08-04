@@ -48,13 +48,27 @@
 	<?php
 		// Author bio.
 		if ( is_single() && get_the_author_meta( 'description' ) ) :
-			get_template_part( 'author-bio' );
+			//get_template_part( 'author-bio' );
 		endif;
 	?>
 
 	<footer class="entry-footer">
 		<?php twentyfifteen_entry_meta(); ?>
-		<?php edit_post_link( __( 'Edit', 'twentyfifteen' ), '<span class="edit-link">', '</span>' ); ?>
+                <?php $contributors = get_post_meta( get_the_ID(), '_my_meta_contributor_key', false ); ?>                
+		<?php edit_post_link( __( 'Edit', 'twentyfifteen' ), '<span class="edit-link">', '</span>' ); ?>        
+            <div>&nbsp;</div>
+            <div>
+                <span class="contributor-heading">Contributors - </span>    
+                <?php
+                    foreach($contributors as $contributor){
+                        $user_info =  get_userdata($contributor);
+                        echo "<span>";
+                            echo "<label class='avatar-image'>".get_avatar($user_info->user_email,32)."</label>";
+                            echo "<label class='contributor-author'><a href='".get_author_posts_url( $user_info->id )."' >".$user_info->display_name."</a></label>";
+                        echo "</span>";
+                    }
+                ?>
+            </div>
 	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->

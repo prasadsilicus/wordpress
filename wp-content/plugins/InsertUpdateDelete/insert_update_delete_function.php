@@ -44,7 +44,9 @@
         $id = (isset($_GET['SlideID'])) ? $_GET['SlideID'] : 0;
         do_action("add_friends_hook",$id);
         if($_GET["action"] == "delete")
-            do_action("delete_friends_hook",$id); 
+            do_action("delete_friends_hook",$id);         
+        if($_GET["action"] == "publish")
+            do_action("publish_friends_hook",$id); 
         do_action("view_friends_hook");
     }
     
@@ -109,7 +111,7 @@
     
     function slide_operations(){
         global $wpdb;
-        $slides = $wpdb->get_results("SELECT * FROM wp_slides ORDER BY OrderSlide ASC");
+        $slides = $wpdb->get_results("SELECT * FROM wp_slides WHERE PublishSlide = 1 ORDER BY OrderSlide ASC");
     ?>        
             <ul class="bxslider">
                 <?php
